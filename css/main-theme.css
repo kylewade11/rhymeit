@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Aloha Dance;
+    src: url(Aloha-Dance.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0;
+
+    font-family: Raleway;
+    background-color: rgb(248, 216, 203);
+}
+label {
+    display: block;
+}
+div {
+    background-color: white;
+}
+h1 {
+    font-weight: 300;
+}
+h3 {
+    font-size: 3vh;
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.top-div {
+    display: flex;
+
+    padding-top: 1vh;
+    padding-left: 2%;
+    margin-bottom: 2vh;
+
+    background-color: rgb(248, 216, 203);
+}
+.top-div > a {
+    width: fit-content;
+}
+.mini-menu {
+    position: relative;
+
+    height: fit-content;
+    width: fit-content;
+
+    font-size: 30px;
+    color: white;
+    background-color: rgb(248, 216, 203);
+}
+.mini-menu:hover {
+    font-style: italic;
+}
